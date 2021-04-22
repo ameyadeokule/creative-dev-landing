@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600;800&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+.flex-row {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.flex-column {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* Fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.4;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+$red: #f94f4f;
+$black: #191921;
+$white: #fff;
+$textColor: #000;
+
+body {
+	font: 400 18px/2 'Commissioner', sans-serif;
+	margin: 0;
+	color: $textColor;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 4.4em;
+	font-weight: 800;
+	line-height: 1.1em;
+	margin: 0;
+}
+
+h2 {
+	font-size: 3.1em;
+	font-weight: 800;
+	line-height: 1.2;
+	margin: 0;
+}
+
+h3 {
+	font-size: 1.1em;
+	font-weight: 800;
+	line-height: 1.15em;
+	margin: 0;
+}
+
+.btn {
+	border: 0;
+	outline: 0;
+	font-size: 1em;
+	font-weight: 800;
+	color: $white;
+	text-align: center;
+	cursor: pointer;
+	transition: opacity 0.3s ease;
+
+	&-black {
+		background: $black;
+	}
+	&-red {
+		background: $red;
+	}
+
+	&:hover {
+		opacity: 0.8;
+	}
+}

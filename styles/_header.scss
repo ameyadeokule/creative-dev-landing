@@ -1,0 +1,40 @@
+.hamburger {
+	display: none;
+}
+
+header {
+	height: 178px;
+	align-items: center;
+	justify-content: space-between;
+
+	.logo {
+		margin: 15px 0 0 11.5%;
+	}
+
+	nav {
+		background: $red;
+		width: 49%;
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		height: 100%;
+		padding: 0 0 0 4.8%;
+
+		a {
+			color: $white;
+			margin: 0 5.2% 0 0;
+			font-size: 0.88em;
+			&:hover {
+				font-weight: 600;
+			}
+		}
+
+		.btn {
+			height: 64px;
+			line-height: 64px;
+			width: 31%;
+			margin-left: 18px;
+			font-size: 0.88em;
+		}
+	}
+}

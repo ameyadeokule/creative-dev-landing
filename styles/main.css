@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;600;800&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  font: 400 18px/2 'Commissioner', sans-serif;
+  margin: 0;
+  color: #000;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 4.4em;
+  font-weight: 800;
+  line-height: 1.1em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 3.1em;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-weight: 800;
+  line-height: 1.15em;
+  margin: 0;
+}
+
+.btn {
+  border: 0;
+  outline: 0;
+  font-size: 1em;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.btn-black {
+  background: #191921;
+}
+
+.btn-red {
+  background: #f94f4f;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.hamburger {
+  display: none;
+}
+
+header {
+  height: 178px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .logo {
+  margin: 15px 0 0 11.5%;
+}
+
+header nav {
+  background: #f94f4f;
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 0 0 0 4.8%;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 5.2% 0 0;
+  font-size: 0.88em;
+}
+
+header nav a:hover {
+  font-weight: 600;
+}
+
+header nav .btn {
+  height: 64px;
+  line-height: 64px;
+  width: 31%;
+  margin-left: 18px;
+  font-size: 0.88em;
+}
+/*# sourceMappingURL=main.css.map */
