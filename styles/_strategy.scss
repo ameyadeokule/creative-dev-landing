@@ -1,0 +1,51 @@
+.strategy {
+	position: relative;
+	padding: 192px 6% 142px 10%;
+	margin-top: -203px;
+	&-bg {
+		position: absolute;
+		background: $red;
+		left: 38%;
+		top: 0;
+		bottom: 0;
+		right: 0;
+	}
+	.left {
+		position: relative;
+		z-index: 2;
+		padding: 206px 0 0 2%;
+	}
+
+	.right {
+		color: $white;
+		padding: 0 0 0 5px;
+		ul {
+			margin: 7px 0 0;
+			li {
+				margin: 0 0 53px;
+				position: relative;
+				padding: 30px 20px 0px 39px;
+				h1 {
+					position: absolute;
+					z-index: 2;
+					left: 18px;
+					top: 0;
+					opacity: 0.25;
+				}
+			}
+		}
+	}
+	&-text {
+		position: relative;
+		z-index: 3;
+		margin: 13px 0 0 40px;
+	}
+	&-title {
+		font-size: 1.1em;
+		font-weight: 800;
+		margin-bottom: 18px;
+	}
+	p {
+		line-height: 1.9em;
+	}
+}
