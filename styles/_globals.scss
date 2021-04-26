@@ -81,6 +81,14 @@ h3 {
 	margin: 0;
 }
 
+.width50 {
+	width: 50%;
+}
+
+.hamburger {
+	display: none;
+}
+
 .btn {
 	border: 0;
 	outline: 0;
@@ -101,4 +109,32 @@ h3 {
 	&:hover {
 		opacity: 0.8;
 	}
+}
+
+.btn-link {
+	border: 0;
+	outline: 0;
+	font-size: 1em;
+	font-weight: 800;
+	color: $red;
+	border-bottom: 2px solid $red;
+	background: transparent;
+	cursor: pointer;
+	transition: opacity 0.3s ease;
+	padding: 0;
+	font-size: 0.88em;
+	padding-bottom: 8px;
+
+	&:hover {
+		opacity: 0.8;
+	}
+}
+
+.wave {
+	position: absolute;
+	top: calc(10% + 140px);
+	left: calc(50% - 51px);
+	width: 135px;
+	height: 61px;
+	z-index: 1;
 }

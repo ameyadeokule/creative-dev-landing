@@ -1,0 +1,30 @@
+.design {
+	position: relative;
+	.wave {
+		background: url(../assets/desktop/bg-pattern-wave-red.svg) no-repeat;
+	}
+	&-bg {
+		background: url(../assets/desktop/image-strategic.jpg);
+		background-size: cover;
+		width: 51%;
+	}
+
+	&-text {
+		width: 49%;
+		background: $black;
+		color: $white;
+		padding: 14% 8% 28% 11%;
+	}
+
+	h2 {
+		margin-bottom: 43px;
+		span {
+			color: $red;
+		}
+	}
+
+	p {
+		margin-bottom: 41px;
+		line-height: 1.8em;
+	}
+}
