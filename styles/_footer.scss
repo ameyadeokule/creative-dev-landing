@@ -1,0 +1,20 @@
+footer {
+	position: relative;
+	align-items: center;
+	padding: 118px 11.5%;
+	justify-content: space-between;
+	.wave {
+		background: url(../assets/desktop/bg-pattern-wave-red.svg) no-repeat;
+		top: 154px;
+		left: -67px;
+	}
+	h2 {
+		max-width: 635px;
+	}
+	.btn {
+		height: 64px;
+		width: 199px;
+		line-height: 64px;
+		font-size: 0.8em;
+	}
+}
