@@ -28,3 +28,26 @@
 		line-height: 1.8em;
 	}
 }
+
+@media only screen and (max-width: 768px) {
+	.design {
+		flex-flow: column;
+		&-bg {
+			width: 100%;
+			background-image: url(../assets/mobile/image-strategic.jpg);
+			height: 200px;
+		}
+		&-text {
+			width: 100%;
+			padding: 20% 4% 20% 7%;
+		}
+		h2 {
+			font-size: 2em;
+			letter-spacing: 0.7px;
+			margin-bottom: 25px;
+		}
+		p {
+			margin-bottom: 33px;
+		}
+	}
+}

@@ -18,3 +18,18 @@ footer {
 		font-size: 0.8em;
 	}
 }
+
+@media only screen and (max-width: 768px) {
+	footer {
+		flex-direction: column;
+		padding: 21px 6.4%;
+		align-items: baseline;
+		.wave {
+			display: none;
+		}
+		h2 {
+			margin-bottom: 50px;
+			max-width: 100%;
+		}
+	}
+}

@@ -99,10 +99,6 @@ h3 {
   width: 50%;
 }
 
-.hamburger {
-  display: none;
-}
-
 .btn {
   border: 0;
   outline: 0;
@@ -154,6 +150,34 @@ h3 {
   width: 135px;
   height: 61px;
   z-index: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    font-size: 1.2em;
+  }
+  h1 {
+    font-size: 2.6em;
+  }
+  h2 {
+    font-size: 2.13em;
+  }
+  body {
+    font-size: 15px;
+  }
+  .btn-link {
+    font-size: 0.9em;
+  }
+  p {
+    line-height: 1.7em;
+  }
+  .wave {
+    top: calc(17% + 80px);
+    left: 24px;
+    width: 66px;
+    height: 30px;
+    background-size: cover;
+  }
 }
 
 .hamburger {
@@ -213,6 +237,77 @@ header nav .btn {
   font-size: 0.88em;
 }
 
+@media only screen and (max-width: 768px) {
+  header {
+    height: 110px;
+    position: relative;
+  }
+  header .logo {
+    margin-left: 6%;
+  }
+  header nav {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: absolute;
+    top: 110px;
+    right: 20px;
+    width: 252px;
+    background: #191921;
+    height: 250px;
+    padding: 10px 0;
+  }
+  header nav.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header nav .btn {
+    background: #f94f4f;
+    width: 199px;
+  }
+  header nav a {
+    font-size: 1.1em;
+    margin: 0 0 20px;
+  }
+  header .hamburger {
+    margin-right: 20px;
+    display: block;
+    border: 0;
+    outline: 0;
+    background: transparent;
+  }
+  header .hamburger span {
+    display: block;
+    width: 24px;
+    height: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+    background: #191921;
+    -webkit-transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  }
+  header .hamburger.active span {
+    opacity: 1;
+    -webkit-transform: rotate(-45deg) translate(5px, -8px);
+            transform: rotate(-45deg) translate(5px, -8px);
+  }
+  header .hamburger.active span:nth-last-child(3) {
+    opacity: 0;
+    -webkit-transform: rotate(0deg) scale(0.2, 0.2);
+            transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  header .hamburger.active span:nth-last-child(2) {
+    -webkit-transform: rotate(45deg) translate(-3px, -1px);
+            transform: rotate(45deg) translate(-3px, -1px);
+  }
+}
+
 .branding {
   padding: 0 0 160px;
   background: url(../assets/desktop/image-hero.jpg) no-repeat top right;
@@ -235,6 +330,25 @@ header nav .btn {
   height: 72px;
   line-height: 72px;
   width: 177px;
+}
+
+@media only screen and (max-width: 768px) {
+  .branding {
+    background: url(../assets/mobile/image-hero.jpg) no-repeat;
+    background-size: contain;
+    padding-bottom: 96px;
+  }
+  .branding .width50 {
+    padding: 68% 0 0 6%;
+    width: 100%;
+  }
+  .branding h1 {
+    margin-bottom: 22px;
+  }
+  .branding p {
+    margin-bottom: 41px;
+    line-height: 1.7em;
+  }
 }
 
 .design {
@@ -269,6 +383,32 @@ header nav .btn {
 .design p {
   margin-bottom: 41px;
   line-height: 1.8em;
+}
+
+@media only screen and (max-width: 768px) {
+  .design {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  .design-bg {
+    width: 100%;
+    background-image: url(../assets/mobile/image-strategic.jpg);
+    height: 200px;
+  }
+  .design-text {
+    width: 100%;
+    padding: 20% 4% 20% 7%;
+  }
+  .design h2 {
+    font-size: 2em;
+    letter-spacing: 0.7px;
+    margin-bottom: 25px;
+  }
+  .design p {
+    margin-bottom: 33px;
+  }
 }
 
 .strategy {
@@ -329,6 +469,29 @@ header nav .btn {
 
 .strategy p {
   line-height: 1.9em;
+}
+
+@media only screen and (max-width: 768) {
+  .strategy {
+    margin-top: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    padding: 43px 4% 10px 3%;
+  }
+  .strategy-bg {
+    left: 0;
+  }
+  .strategy .left {
+    padding: 56px 4% 0;
+  }
+  .strategy .left h2 {
+    color: #fff;
+  }
+  .strategy .right {
+    padding: 46px 3% 0 0%;
+  }
 }
 
 .slider {
@@ -407,6 +570,42 @@ header nav .btn {
   background: url(../assets//desktop/icon-arrow-next.svg) no-repeat;
 }
 
+@media only screen and (max-width: 768px) {
+  .slider {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .slider .wave {
+    display: none;
+  }
+  .slider .left {
+    width: 100%;
+  }
+  .slider .right {
+    width: 100%;
+    margin: 0;
+  }
+  .slider .right .slide {
+    height: 405px;
+  }
+  .slider .right .slide .text {
+    bottom: 30px;
+    right: 32px;
+  }
+  .slider .right .slide-title {
+    margin-bottom: -3px;
+  }
+  .slider-main-title {
+    padding: 0 6%;
+    min-width: 273px;
+  }
+  .slider-main-title h2 {
+    margin-bottom: 25px;
+  }
+}
+
 footer {
   position: relative;
   -webkit-box-align: center;
@@ -433,5 +632,25 @@ footer .btn {
   width: 199px;
   line-height: 64px;
   font-size: 0.8em;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 21px 6.4%;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  footer .wave {
+    display: none;
+  }
+  footer h2 {
+    margin-bottom: 50px;
+    max-width: 100%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -49,3 +49,23 @@
 		line-height: 1.9em;
 	}
 }
+
+@media only screen and (max-width: 768) {
+	.strategy {
+		margin-top: 0;
+		flex-flow: column;
+		padding: 43px 4% 10px 3%;
+		&-bg {
+			left: 0;
+		}
+		.left {
+			padding: 56px 4% 0;
+			h2 {
+				color: $white;
+			}
+		}
+		.right {
+			padding: 46px 3% 0 0%;
+		}
+	}
+}

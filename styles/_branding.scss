@@ -21,3 +21,22 @@
 	line-height: 72px;
 	width: 177px;
 }
+
+@media only screen and (max-width: 768px) {
+	.branding {
+		background: url(../assets/mobile/image-hero.jpg) no-repeat;
+		background-size: contain;
+		padding-bottom: 96px;
+		.width50 {
+			padding: 68% 0 0 6%;
+			width: 100%;
+		}
+		h1 {
+			margin-bottom: 22px;
+		}
+		p {
+			margin-bottom: 41px;
+			line-height: 1.7em;
+		}
+	}
+}

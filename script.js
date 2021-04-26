@@ -35,3 +35,8 @@ document.querySelector('.slider-btn-left').addEventListener('click', () => {
 document.querySelector('.slider-btn-right').addEventListener('click', () => {
 	nextSlide(1)
 })
+
+document.querySelector('.hamburger').addEventListener('click', () => {
+	document.querySelector('.hamburger').classList.toggle('active')
+	document.querySelector('header nav').classList.toggle('active')
+})
