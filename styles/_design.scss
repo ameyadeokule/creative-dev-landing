@@ -29,6 +29,29 @@
 	}
 }
 
+@media only screen and (max-width: 1023px) {
+	.design {
+		.wave {
+			background-size: cover;
+		}
+		&-bg {
+			width: 49%;
+			background-image: url(../assets/tablet/image-strategic.jpg);
+		}
+		&-text {
+			width: 51%;
+			padding: 16% 6% 31% 9.3%;
+		}
+		h2 {
+			margin-bottom: 32px;
+		}
+		p {
+			line-height: 1.7em;
+			margin-bottom: 26px;
+		}
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.design {
 		flex-flow: column;

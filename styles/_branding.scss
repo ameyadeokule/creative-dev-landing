@@ -22,6 +22,23 @@
 	width: 177px;
 }
 
+@media only screen and (max-width: 1023px) {
+	.branding {
+		padding-bottom: 150px;
+		background-image: url(../assets/tablet/image-hero.jpg);
+		.width50 {
+			padding: 77px 0 0 5%;
+			width: 57%;
+		}
+		h1 {
+			margin-bottom: 27px;
+		}
+		p {
+			margin-bottom: 28px;
+		}
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.branding {
 		background: url(../assets/mobile/image-hero.jpg) no-repeat;

@@ -61,6 +61,41 @@
 	}
 }
 
+@media only screen and (max-width: 1023px) {
+	.slider {
+		.wave {
+			left: calc(50% - 23px);
+			background-size: cover;
+		}
+		.left {
+			width: 52%;
+		}
+		&-main-title {
+			min-height: 352px;
+			padding: 0 10%;
+			h2 {
+				margin-bottom: 32px;
+			}
+		}
+		.right {
+			width: 58%;
+			margin-left: -8%;
+			.slide {
+				height: 471px;
+				.text {
+					bottom: 39px;
+					right: 40px;
+				}
+				&-title {
+					margin-top: 0;
+					letter-spacing: inherit;
+					line-height: 1;
+				}
+			}
+		}
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	.slider {
 		flex-direction: column-reverse;

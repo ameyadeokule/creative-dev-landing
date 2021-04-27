@@ -152,6 +152,33 @@ h3 {
   z-index: 1;
 }
 
+@media only screen and (max-width: 1023px) {
+  .btn {
+    font-size: 1.2em;
+  }
+  h1 {
+    font-size: 3.6em;
+    line-height: 1.06em;
+    letter-spacing: 1px;
+  }
+  h2 {
+    font-size: 2.13em;
+  }
+  body {
+    font-size: 15px;
+  }
+  .btn-link {
+    font-size: 0.9em;
+  }
+  .wave {
+    top: calc(10% + 80px);
+    left: calc(50% - 40px);
+    width: 66px;
+    height: 30px;
+    background-size: cover;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .btn {
     font-size: 1.2em;
@@ -237,6 +264,24 @@ header nav .btn {
   font-size: 0.88em;
 }
 
+@media only screen and (max-width: 1023px) {
+  header .logo {
+    margin: 10px 0 0 5%;
+  }
+  header nav {
+    width: 57%;
+    padding-left: 4.4%;
+  }
+  header nav a {
+    margin-right: 6.4%;
+  }
+  header nav .btn {
+    width: 36%;
+    margin-left: 2%;
+    font-size: 1em;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   header {
     height: 110px;
@@ -253,7 +298,7 @@ header nav .btn {
             flex-direction: column;
     position: absolute;
     top: 110px;
-    right: 20px;
+    right: 11%;
     width: 252px;
     background: #191921;
     height: 250px;
@@ -270,7 +315,7 @@ header nav .btn {
   }
   header nav a {
     font-size: 1.1em;
-    margin: 0 0 20px;
+    margin-bottom: 20px;
   }
   header .hamburger {
     margin-right: 20px;
@@ -332,6 +377,23 @@ header nav .btn {
   width: 177px;
 }
 
+@media only screen and (max-width: 1023px) {
+  .branding {
+    padding-bottom: 150px;
+    background-image: url(../assets/tablet/image-hero.jpg);
+  }
+  .branding .width50 {
+    padding: 77px 0 0 5%;
+    width: 57%;
+  }
+  .branding h1 {
+    margin-bottom: 27px;
+  }
+  .branding p {
+    margin-bottom: 28px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .branding {
     background: url(../assets/mobile/image-hero.jpg) no-repeat;
@@ -383,6 +445,27 @@ header nav .btn {
 .design p {
   margin-bottom: 41px;
   line-height: 1.8em;
+}
+
+@media only screen and (max-width: 1023px) {
+  .design .wave {
+    background-size: cover;
+  }
+  .design-bg {
+    width: 49%;
+    background-image: url(../assets/tablet/image-strategic.jpg);
+  }
+  .design-text {
+    width: 51%;
+    padding: 16% 6% 31% 9.3%;
+  }
+  .design h2 {
+    margin-bottom: 32px;
+  }
+  .design p {
+    line-height: 1.7em;
+    margin-bottom: 26px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -471,7 +554,42 @@ header nav .btn {
   line-height: 1.9em;
 }
 
-@media only screen and (max-width: 768) {
+@media only screen and (max-width: 1024px) {
+  .strategy {
+    margin-top: -117px;
+    padding: 43px 4% 35px 3%;
+  }
+  .strategy-bg {
+    left: 43%;
+  }
+  .strategy .right {
+    padding: 74px 0 0 4%;
+  }
+  .strategy .right ul {
+    padding: 0;
+  }
+  .strategy .right ul li {
+    margin-bottom: 84px;
+    padding: 0;
+  }
+  .strategy .right ul li h1 {
+    left: 16px;
+    top: -41px;
+    font-size: 5em;
+  }
+  .strategy-text {
+    margin: 49px 0 0 30px;
+  }
+  .strategy-title {
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  .strategy p {
+    line-height: 1.7em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .strategy {
     margin-top: 0;
     -webkit-box-orient: vertical;
@@ -570,6 +688,39 @@ header nav .btn {
   background: url(../assets//desktop/icon-arrow-next.svg) no-repeat;
 }
 
+@media only screen and (max-width: 1023px) {
+  .slider .wave {
+    left: calc(50% - 23px);
+    background-size: cover;
+  }
+  .slider .left {
+    width: 52%;
+  }
+  .slider-main-title {
+    min-height: 352px;
+    padding: 0 10%;
+  }
+  .slider-main-title h2 {
+    margin-bottom: 32px;
+  }
+  .slider .right {
+    width: 58%;
+    margin-left: -8%;
+  }
+  .slider .right .slide {
+    height: 471px;
+  }
+  .slider .right .slide .text {
+    bottom: 39px;
+    right: 40px;
+  }
+  .slider .right .slide-title {
+    margin-top: 0;
+    letter-spacing: inherit;
+    line-height: 1;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .slider {
     -webkit-box-orient: vertical;
@@ -632,6 +783,18 @@ footer .btn {
   width: 199px;
   line-height: 64px;
   font-size: 0.8em;
+}
+
+@media only screen and (max-width: 1023px) {
+  footer {
+    padding: 73px 5.2%;
+  }
+  footer h2 {
+    max-width: 58%;
+  }
+  footer .btn {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 768px) {

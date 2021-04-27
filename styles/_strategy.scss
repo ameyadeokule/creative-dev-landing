@@ -50,7 +50,42 @@
 	}
 }
 
-@media only screen and (max-width: 768) {
+@media only screen and (max-width: 1024px) {
+	.strategy {
+		margin-top: -117px;
+		padding: 43px 4% 35px 3%;
+		&-bg {
+			left: 43%;
+		}
+		.right {
+			padding: 74px 0 0 4%;
+			ul {
+				padding: 0;
+				li {
+					margin-bottom: 84px;
+					padding: 0;
+					h1 {
+						left: 16px;
+						top: -41px;
+						font-size: 5em;
+					}
+				}
+			}
+		}
+		&-text {
+			margin: 49px 0 0 30px;
+		}
+		&-title {
+			font-size: 1em;
+			margin-bottom: 15px;
+		}
+		p {
+			line-height: 1.7em;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
 	.strategy {
 		margin-top: 0;
 		flex-flow: column;
