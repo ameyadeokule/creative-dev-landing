@@ -1,4 +1,4 @@
-# Frontend Mentor - Easybank landing page solution
+# Frontend Mentor - Creative agency single-page site
 
 This is a solution to the [Creative agency single-page site challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/creative-agency-singlepage-site-Pq6V3I2RM). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [https://ameyadeokule.github.io/easybank-landing/](https://ameyadeokule.github.io/easybank-landing/)
+-   Live Site URL: [https://ameyadeokule.github.io/creative-dev-landing/](https://ameyadeokule.github.io/creative-dev-landing/)
 
 ## My process
 
